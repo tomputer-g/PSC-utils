@@ -15,7 +15,7 @@ pip install --upgrade pip
 pip install "sglang[all]" openai
 
 pip install -U --pre triton
-
+pip install nvidia-cudnn-cu12==9.16.0.29
 ```
 
 # Interactive mode
