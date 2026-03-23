@@ -12,10 +12,9 @@ conda activate sglang_env
 
 python -m sglang.launch_server \
     --model-path Qwen/Qwen2.5-VL-7B-Instruct \
-    --chat-template qwen2-vl \
     --port 8000 \
     --host 0.0.0.0 \
-    --mem-fraction-static 0.5 \
-    --context-length 8192 \
+    --mem-fraction-static 0.7 \
+    --context-length 40000 \
     --max-running-requests 10 \
 
